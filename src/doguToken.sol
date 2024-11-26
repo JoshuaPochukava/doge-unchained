@@ -195,7 +195,7 @@ abstract contract Ownable is Context {
     }
 }
 
-contract PepeToken is Context, IERC20Metadata, Ownable {
+contract DoguToken is Context, IERC20Metadata, Ownable {
     mapping(address => uint256) private _balances;
 
     mapping(address => mapping(address => uint256)) private _allowances;
